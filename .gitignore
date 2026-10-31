@@ -1,0 +1,31 @@
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Configuration and environment variables
+.env
+.env.local
+
+# Database files
+*.db
+*.sqlite3
+bot_database.db
+
+# Large executable files (Windows binaries not needed on Linux Render)
+ffmpeg.exe
+ffprobe.exe
+
+# Log files
+*.log
+bot.log
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temp downloads folder
+downloads/

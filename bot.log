@@ -1,0 +1,1915 @@
+2026-07-06 19:13:34,738 | __main__ | INFO | ==================================================
+2026-07-06 19:13:34,738 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 19:13:34,740 | __main__ | INFO | ==================================================
+2026-07-06 19:13:35,325 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 19:13:55,984 | __main__ | INFO | ==================================================
+2026-07-06 19:13:55,984 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 19:13:55,984 | __main__ | INFO | ==================================================
+2026-07-06 19:13:56,518 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 19:14:04,747 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-06 20:07:01,028 | __main__ | INFO | ==================================================
+2026-07-06 20:07:01,028 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 20:07:01,028 | __main__ | INFO | ==================================================
+2026-07-06 20:07:01,564 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 20:12:25,382 | __main__ | INFO | ==================================================
+2026-07-06 20:12:25,382 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 20:12:25,382 | __main__ | INFO | ==================================================
+2026-07-06 20:12:25,900 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 20:12:36,116 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 20:13:34,836 | downloader | ERROR | Audio download error: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2026-07-06 20:13:34,837 | handlers.download | ERROR | Audio download failed: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2026-07-06 20:15:56,037 | __main__ | INFO | ==================================================
+2026-07-06 20:15:56,037 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 20:15:56,037 | __main__ | INFO | ==================================================
+2026-07-06 20:15:56,572 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 20:16:24,552 | downloader | ERROR | Audio download error: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2026-07-06 20:16:24,552 | handlers.download | ERROR | Audio download failed: [0;31mERROR:[0m Postprocessing: ffprobe and ffmpeg not found. Please install or provide the path using --ffmpeg-location
+2026-07-06 20:25:55,546 | __main__ | INFO | ==================================================
+2026-07-06 20:25:55,546 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 20:25:55,546 | __main__ | INFO | ==================================================
+2026-07-06 20:25:56,078 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 20:27:50,288 | downloader | INFO | Deleted: downloads\9974e983-c89f-44c9-a828-21eba8a29e5b\زينب لفت - الحاج باسم الكربلائي.mp3
+2026-07-06 20:32:33,791 | downloader | INFO | Deleted: downloads\b09da10d-0386-4998-bc3a-1428d2448a5c\زينب لفت - الحاج باسم الكربلائي.mp4
+2026-07-06 20:33:06,692 | downloader | INFO | Deleted: downloads\5b8ee2e5-b8d1-4287-a033-7c5825d73bd6\زينب لفت - الحاج باسم الكربلائي.mp4
+2026-07-06 20:33:34,987 | downloader | INFO | Deleted: downloads\5ebc26de-dc3a-449f-a866-caccfeb42276\زينب لفت - الحاج باسم الكربلائي.mp4
+2026-07-06 20:34:00,269 | handlers.download | ERROR | Video download failed: Timed out
+2026-07-06 20:34:00,544 | downloader | INFO | Deleted: downloads\3c366214-d15b-4567-8c26-7d8ceb247b64\زينب لفت - الحاج باسم الكربلائي.mp4
+2026-07-06 20:37:18,300 | handlers.download | ERROR | Error getting media info: Button_data_invalid
+2026-07-06 20:37:25,832 | handlers.download | ERROR | Error getting media info: Button_data_invalid
+2026-07-06 20:40:16,345 | handlers.start | INFO | User 1415851639 (مروه) started the bot
+2026-07-06 20:40:32,461 | downloader | INFO | Deleted: downloads\5e857bcc-af98-49ad-82ac-3d86c48c9087\حسبي الله ونعم الوكيل 💔 شديصير بالعالم ؟ وين عايشين احنه #فيروزة #الع....mp4
+2026-07-06 20:41:28,299 | downloader | INFO | Deleted: downloads\2e8c0e37-8a49-413a-90c6-b25e159a7ede\حسبي الله ونعم الوكيل 💔 شديصير بالعالم ؟ وين عايشين احنه #فيروزة #الع....mp3
+2026-07-06 20:44:04,806 | __main__ | INFO | ==================================================
+2026-07-06 20:44:04,806 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 20:44:04,806 | __main__ | INFO | ==================================================
+2026-07-06 20:44:05,353 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 20:45:11,478 | downloader | INFO | Deleted: downloads\0643ed54-8e06-4ecd-8ca6-29b74abb6099\Video by salille.alraii.mp4
+2026-07-06 20:48:06,010 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 20:48:15,881 | handlers.start | INFO | User 7547640860 (جعفر) started the bot
+2026-07-06 20:48:28,571 | handlers.start | INFO | User 8635087373 (وي) started the bot
+2026-07-06 20:48:51,800 | handlers.download | ERROR | Video download failed: Timed out
+2026-07-06 20:48:52,085 | downloader | INFO | Deleted: downloads\e8e19e37-5df3-4d0c-8b3e-c9c67d98978d\Video by salille.alraii.mp4
+2026-07-06 20:48:57,175 | downloader | ERROR | yt-dlp error: [0;31mERROR:[0m Unsupported URL: https://t.me/e0e_bot?start=_tgr_0YGqNGY3N2Ri
+2026-07-06 20:49:16,632 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 20:49:36,478 | downloader | INFO | Deleted: downloads\5d94cf33-86c9-4e54-a594-12bd76628923\Video by salille.alraii.mp4
+2026-07-06 20:50:58,849 | downloader | INFO | Deleted: downloads\17327061-3b82-4387-9288-89af2acafc2f\يعني بهذا العمر وبحديقه الامه وجمالها مشاءالله من تكبر شصير هاي سوريي....mp4
+2026-07-06 21:08:03,750 | __main__ | INFO | ==================================================
+2026-07-06 21:08:03,750 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-06 21:08:03,750 | __main__ | INFO | ==================================================
+2026-07-06 21:08:04,284 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-06 21:08:17,908 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 21:08:44,970 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 49, in cmd_status
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2026-07-06 21:08:49,617 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 49, in cmd_status
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2026-07-06 21:09:42,689 | downloader | INFO | Deleted: downloads\29b1bd33-d2d6-473c-8ef7-b621996d9762\زينب لفت - الحاج باسم الكربلائي_00001.webp
+2026-07-06 21:16:30,815 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 21:16:40,658 | handlers.start | INFO | User 7547640860 (جعفر) started the bot
+2026-07-06 21:24:34,160 | handlers.start | INFO | User 7574025561 (ㅤ) started the bot
+2026-07-06 21:57:54,845 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 23:28:16,816 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-06 23:33:33,032 | handlers.start | INFO | User 7547640860 (جعفر) started the bot
+2026-07-06 23:34:38,015 | downloader | INFO | Deleted: downloads\39042ccf-d541-4424-ace9-1ed425f47d45\المنشور 34｜والله دنيا وصارت اخبارك بعيده💔😔 #باسم_الكربلائي  #قصائد_حس....mp4
+2026-07-06 23:34:49,928 | handlers.start | INFO | User 7547640860 (جعفر) started the bot
+2026-07-07 01:21:12,475 | handlers.start | INFO | User 7667320705 (بدر🤍) started the bot
+2026-07-07 01:23:24,726 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 49, in cmd_status
+ModuleNotFoundError: No module named 'psutil'
+2026-07-07 01:23:32,266 | handlers.start | INFO | User 7667320705 (بدر🤍) started the bot
+2026-07-07 01:39:16,271 | __main__ | INFO | ==================================================
+2026-07-07 01:39:16,271 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 01:39:16,271 | __main__ | INFO | ==================================================
+2026-07-07 01:39:16,863 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 01:39:55,614 | __main__ | INFO | ==================================================
+2026-07-07 01:39:55,615 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 01:39:55,615 | __main__ | INFO | ==================================================
+2026-07-07 01:39:56,137 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 01:47:04,514 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-07 01:47:04,515 | __main__ | INFO | ==================================================
+2026-07-07 01:47:04,515 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 01:47:04,515 | __main__ | INFO | ==================================================
+2026-07-07 01:47:05,038 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 01:47:06,039 | handlers.start | INFO | User 1747915739 (حسن) started the bot
+2026-07-07 01:47:08,920 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 90, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 41, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 166, in btn_menu_status
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-07 01:47:50,582 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-07 01:50:00,524 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-07 01:50:00,524 | __main__ | INFO | ==================================================
+2026-07-07 01:50:00,524 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 01:50:00,524 | __main__ | INFO | ==================================================
+2026-07-07 01:50:01,052 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 02:12:35,656 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-07 02:12:35,657 | __main__ | INFO | ==================================================
+2026-07-07 02:12:35,657 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 02:12:35,657 | __main__ | INFO | ==================================================
+2026-07-07 02:12:36,281 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 03:05:05,309 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-07 03:05:05,309 | __main__ | INFO | ==================================================
+2026-07-07 03:05:05,309 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 03:05:05,310 | __main__ | INFO | ==================================================
+2026-07-07 03:05:05,852 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 03:05:16,254 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-07 03:05:17,850 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-07 04:11:10,812 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.NetworkError: Bad Gateway
+2026-07-07 04:11:19,305 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.NetworkError: Bad Gateway
+2026-07-07 04:11:31,931 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.NetworkError: Bad Gateway
+2026-07-07 06:12:21,082 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-07 07:46:01,612 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-07 10:52:12,536 | handlers.start | INFO | User 231864589 (Noorali k) started the bot
+2026-07-07 10:52:32,462 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 91, in wrapper
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 41, in wrapper
+    return
+       ^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 166, in btn_menu_status
+    """معالج زر الحالة"""
+    ...<3 lines>...
+    
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-07 10:52:34,708 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 91, in wrapper
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 41, in wrapper
+    return
+       ^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 166, in btn_menu_status
+    """معالج زر الحالة"""
+    ...<3 lines>...
+    
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-07 10:53:01,835 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 91, in wrapper
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 835, in btn_menu_audio
+    
+    
+    ...<3 lines>...
+        await query.edit_message_text(
+        ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-07 10:57:20,675 | handlers.download | ERROR | Video download failed: Timed out
+2026-07-07 10:57:20,941 | downloader | INFO | Deleted: downloads\6d0f70c3-1ba8-4ee5-8c3f-045a39e094f2\#كربلاء #اكسبلور #قصائد #tiktok .mp4
+2026-07-07 15:59:23,833 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-07 16:59:33,659 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-07 16:59:38,721 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 91, in wrapper
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 41, in wrapper
+    return
+       ^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 166, in btn_menu_status
+    """معالج زر الحالة"""
+    ...<3 lines>...
+    
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-07 18:22:56,428 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-07 18:22:56,428 | __main__ | INFO | ==================================================
+2026-07-07 18:22:56,428 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-07 18:22:56,429 | __main__ | INFO | ==================================================
+2026-07-07 18:22:56,971 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-07 18:23:07,348 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-07 18:23:09,664 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-08 01:33:44,916 | handlers.start | INFO | User 2100570784 ((((فَسَيَكْفِيكَهُمُ اللَّهُ ۚ وَهُوَ السَّمِيعُ الْعَلِيمُ)))) started the bot
+2026-07-08 01:34:15,629 | downloader | INFO | Deleted: downloads\5624808b-c9f0-46a6-8914-f0e815277f86\213K views · 4.4K reactions ｜ 🔴 مباشر الان ｜ حبايبــــــنا العراقيون.mp4
+2026-07-08 01:36:08,813 | handlers.download | ERROR | Video download failed: Timed out
+2026-07-08 01:36:09,111 | downloader | INFO | Deleted: downloads\92d20a62-62bf-450a-96f5-0d3ab2f77d01\15 reactions ｜ شتان بين هؤولاء وبين اتباع الحسين الباكين الناحبين الراكضين ｜ خاد.mp4
+2026-07-08 01:47:19,421 | handlers.start | INFO | User 7744606127 (𝑨) started the bot
+2026-07-08 03:20:08,784 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 92, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 842, in btn_menu_video
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-08 03:20:11,072 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 92, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 842, in btn_menu_video
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-08 03:20:11,921 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 92, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 842, in btn_menu_video
+    await query.edit_message_text(
+    ...<3 lines>...
+    )
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 269, in edit_message_text
+    return await self._get_message().edit_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 4473, in edit_text
+    return await self.get_bot().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 1763, in edit_message_text
+    return await super().edit_message_text(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<15 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4465, in edit_message_text
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: There is no text in the message to edit
+2026-07-08 03:20:21,442 | downloader | INFO | Deleted: downloads\68aee437-9ebd-4529-8ab2-bfd0ae2e8068\وين الكاكـ 💔،                                         #سيد_سلام_الحسي....mp4
+2026-07-08 18:23:09,961 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-08 18:23:12,503 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-08 22:30:46,399 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-08 22:30:46,399 | __main__ | INFO | ==================================================
+2026-07-08 22:30:46,399 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-08 22:30:46,399 | __main__ | INFO | ==================================================
+2026-07-08 22:30:46,928 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-08 22:30:57,465 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-08 22:30:58,933 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-09 03:48:43,499 | __main__ | INFO | 🌐 خادم الويب الوهمي يعمل على المنفذ: 8000
+2026-07-09 03:48:43,500 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-09 03:48:43,500 | __main__ | INFO | ==================================================
+2026-07-09 03:48:43,500 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-09 03:48:43,500 | __main__ | INFO | ==================================================
+2026-07-09 03:48:44,037 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-09 03:48:48,920 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:48:53,150 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:48:54,394 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-09 03:48:55,840 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-09 03:48:58,206 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:49:01,485 | downloader | INFO | 🍪 تم العثور على ملف cookies.txt وتفعيله في خيارات التحميل.
+2026-07-09 03:49:05,148 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:49:09,424 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:49:15,171 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:51:30,051 | __main__ | INFO | 🌐 خادم الويب الوهمي يعمل على المنفذ: 8000
+2026-07-09 03:51:30,051 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-09 03:51:30,051 | __main__ | INFO | ==================================================
+2026-07-09 03:51:30,052 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-09 03:51:30,052 | __main__ | INFO | ==================================================
+2026-07-09 03:51:30,590 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-09 03:51:33,043 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-09 03:51:39,365 | downloader | INFO | 🍪 تم العثور على ملف cookies.txt وتفعيله في خيارات التحميل.
+2026-07-09 03:51:40,995 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-09 03:51:42,401 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-09 03:51:50,580 | downloader | INFO | 🍪 تم العثور على ملف cookies.txt وتفعيله في خيارات التحميل.
+2026-07-09 03:51:55,112 | downloader | INFO | Deleted: downloads\a6e564ab-0b58-4c76-8be8-51a54ace0ede\Video by 51caa.mp4
+2026-07-09 03:52:25,010 | downloader | INFO | 🍪 تم العثور على ملف cookies.txt وتفعيله في خيارات التحميل.
+2026-07-09 03:52:27,774 | downloader | ERROR | yt-dlp error: [0;31mERROR:[0m [youtube] fTu5bn7TjbY: Requested format is not available. Use --list-formats for a list of available formats
+2026-07-09 03:58:53,315 | __main__ | ERROR | ❌ فشل بدء خادم الويب الوهمي: [WinError 10048] Only one usage of each socket address (protocol/network address/port) is normally permitted
+2026-07-09 03:58:53,315 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-09 03:58:53,315 | __main__ | INFO | ==================================================
+2026-07-09 03:58:53,315 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-09 03:58:53,315 | __main__ | INFO | ==================================================
+2026-07-09 03:58:53,857 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-09 03:58:54,583 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:58:58,686 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:58:59,781 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 03:59:04,176 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-09 03:59:04,369 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_utils\networkloop.py", line 154, in do_action
+    action_cb_task.result()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_updater.py", line 340, in polling_action_cb
+    updates = await self.bot.get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 680, in get_updates
+    updates = await super().get_updates(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4767, in get_updates
+    await self._post(
+    ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    ),
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2026-07-09 04:02:18,566 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-09 04:02:18,566 | __main__ | INFO | ==================================================
+2026-07-09 04:02:18,567 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-09 04:02:18,567 | __main__ | INFO | ==================================================
+2026-07-09 04:02:19,155 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-09 04:02:29,466 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-09 04:02:31,225 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-09 04:05:35,153 | downloader | ERROR | Video download error: [0;31mERROR:[0m [download] Got error: 2674774 bytes read, 7463685 more expected
+2026-07-09 04:05:35,154 | handlers.download | ERROR | Video download failed: [0;31mERROR:[0m [download] Got error: 2674774 bytes read, 7463685 more expected
+2026-07-09 04:12:27,509 | handlers.download | WARNING | Smart compress failed: the JSON object must be str, bytes or bytearray, not NoneType
+2026-07-09 04:12:27,629 | downloader | INFO | Deleted: downloads\166a8f1e-4d48-43c7-add6-b26a3dacb4f8\الشمس تختفي والارض تتجمد فتبدأ نهاية العالم، والعلماء لديهم 30 سنة فقط لانقاذ ال.mp4
+2026-07-09 04:13:39,384 | handlers.download | WARNING | Smart compress failed: the JSON object must be str, bytes or bytearray, not NoneType
+2026-07-09 04:13:39,511 | downloader | INFO | Deleted: downloads\bf4af8fe-05c9-4c58-adba-035c47c469a6\الشمس تختفي والارض تتجمد فتبدأ نهاية العالم، والعلماء لديهم 30 سنة فقط لانقاذ ال.mp4
+2026-07-09 04:14:18,709 | downloader | INFO | Deleted: downloads\1508888e-936e-4cf4-98f0-de72a706556d\الشمس تختفي والارض تتجمد فتبدأ نهاية العالم، والعلماء لديهم 30 سنة فقط لانقاذ ال.mp4
+2026-07-09 04:53:24,591 | handlers.download | WARNING | Smart compress failed: الملف لا يزال كبيراً بعد الضغط (56.5 MB)
+2026-07-09 04:53:24,891 | downloader | INFO | Deleted: downloads\89ccbc60-193c-4514-b352-504e37ec0a84\Video by 1alt_i.mp4
+2026-07-09 04:54:30,730 | handlers.download | WARNING | Smart compress failed: الملف لا يزال كبيراً بعد الضغط (56.5 MB)
+2026-07-09 04:54:31,004 | downloader | INFO | Deleted: downloads\e9e76a86-f3d7-4c11-80df-202514a80adf\Video by 1alt_i.mp4
+2026-07-09 04:54:31,094 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 98, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 280, in btn_type_video
+    await query.answer()
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    return await self.get_bot().answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 978, in answer_callback_query
+    return await super().answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4362, in answer_callback_query
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2026-07-09 04:54:31,191 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 98, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\download.py", line 887, in btn_cancel
+    await query.answer("تم الإلغاء")
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_callbackquery.py", line 190, in answer
+    return await self.get_bot().answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 978, in answer_callback_query
+    return await super().answer_callback_query(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 4362, in answer_callback_query
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.BadRequest: Query is too old and response timeout expired or query id is invalid
+2026-07-09 04:54:31,195 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-09 04:54:37,721 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-09 04:54:37,721 | __main__ | INFO | ==================================================
+2026-07-09 04:54:37,721 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-09 04:54:37,721 | __main__ | INFO | ==================================================
+2026-07-09 04:54:38,242 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-09 04:54:40,716 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-09 04:54:48,571 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-09 04:54:49,991 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-09 04:55:52,369 | handlers.download | WARNING | Smart compress failed: الملف لا يزال كبيراً بعد الضغط (56.5 MB)
+2026-07-09 04:55:52,665 | downloader | INFO | Deleted: downloads\ac38e099-f84e-46e0-9620-87146a0639bf\Video by 1alt_i.mp4
+2026-07-09 16:17:57,742 | downloader | INFO | Deleted: downloads\896f9714-3db3-47a0-a550-f7df6b514ca0\#قران #القرآن_الكريم #اجر_لي_ولكم #quotes #explore .mp4
+2026-07-09 20:14:28,234 | handlers.start | INFO | User 2020811909 (حسن) started the bot
+2026-07-10 04:54:50,112 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-10 04:54:52,944 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-11 17:13:00,008 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-11 17:13:00,030 | __main__ | INFO | ==================================================
+2026-07-11 17:13:00,030 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-11 17:13:00,030 | __main__ | INFO | ==================================================
+2026-07-11 17:13:00,595 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-11 17:13:08,504 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-11 17:13:10,924 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-11 17:13:16,325 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-11 17:13:35,674 | downloader | INFO | Deleted: downloads\3ad8ff7b-f4ff-4ed4-9315-c90238178443\انا جنت ادري بنهايتنه حزينة 😢 .  .  .  .  .  .  .  .  .  ..  .  .  #f....mp4
+2026-07-11 18:47:47,503 | downloader | INFO | Deleted: downloads\08970ca6-e37c-472c-9d67-4f0e525a47c5\#ريم_البلوشي #الكويت #السعودية #fyp #fyp .mp4
+2026-07-12 02:01:03,320 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-12 02:01:03,342 | __main__ | INFO | ==================================================
+2026-07-12 02:01:03,342 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-12 02:01:03,342 | __main__ | INFO | ==================================================
+2026-07-12 02:01:04,037 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-12 02:01:14,380 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-12 02:01:19,906 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-13 00:56:20,490 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-13 00:56:20,492 | __main__ | INFO | ==================================================
+2026-07-13 00:56:20,492 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-13 00:56:20,492 | __main__ | INFO | ==================================================
+2026-07-13 00:56:21,455 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-13 00:56:31,800 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-13 00:56:38,562 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-13 20:10:05,655 | handlers.start | INFO | User 5051668860 (حسين علي حسين عيال) started the bot
+2026-07-13 20:10:54,397 | handlers.download | WARNING | Smart compress failed: the JSON object must be str, bytes or bytearray, not NoneType
+2026-07-13 20:10:54,514 | downloader | INFO | Deleted: downloads\5da2b27b-3d5f-48e7-ae09-8bb2f62f5148\Ronaldo 2006❤️ ｜ #cristianoronaldo #cr7 #120fps #footballedit #fyp.mp4
+2026-07-13 20:11:59,605 | handlers.download | WARNING | Smart compress failed: the JSON object must be str, bytes or bytearray, not NoneType
+2026-07-13 20:11:59,740 | downloader | INFO | Deleted: downloads\8116cd57-d367-4c87-affc-391fa835b89a\Ronaldo 2006❤️ ｜ #cristianoronaldo #cr7 #120fps #footballedit #fyp.mp4
+2026-07-13 21:32:02,986 | downloader | INFO | Deleted: downloads\d523b889-8cab-42d6-8408-91468fe40b9e\1.3K views · 16K reactions ｜ يابو فاضل ｜ Um Asoula.mp4
+2026-07-15 09:08:59,768 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-15 09:08:59,789 | __main__ | INFO | ==================================================
+2026-07-15 09:08:59,789 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-15 09:08:59,789 | __main__ | INFO | ==================================================
+2026-07-15 09:09:00,584 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-15 09:09:10,999 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-15 09:09:17,960 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-07-15 15:50:43,145 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-15 15:50:50,359 | telegram.ext.Application | ERROR | No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        pool_request.request
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\http11.py", line 136, in handle_async_request
+    raise exc
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_async\http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.READ_NUM_BYTES, timeout=timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_backends\anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+         ~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 279, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+         ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\contextlib.py", line 162, in __exit__
+    self.gen.throw(value)
+    ~~~~~~~~~~~~~~^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_application.py", line 1315, in process_update
+    await coroutine
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 159, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\bot.py", line 98, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 68, in wrapper
+    return await func(update, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\handlers\start.py", line 87, in cmd_start
+    await update.message.reply_photo(
+    ...<4 lines>...
+    )
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_message.py", line 2692, in reply_photo
+    return await self.get_bot().send_photo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 3236, in send_photo
+    return await super().send_photo(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<25 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 1611, in send_photo
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<22 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 638, in _send_message
+    result = await super()._send_message(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<23 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 828, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 712, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\ext\_extbot.py", line 378, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\_bot.py", line 741, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_baserequest.py", line 305, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "G:\تحميل من المواقع لاملفات وفيديوهات\venv\Lib\site-packages\telegram\request\_httpxrequest.py", line 296, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2026-07-15 15:50:53,323 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-15 15:56:55,201 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-07-16 23:30:46,269 | utils.db | INFO | ✅ Database initialized successfully.
+2026-07-16 23:30:46,287 | __main__ | INFO | ==================================================
+2026-07-16 23:30:46,288 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-07-16 23:30:46,288 | __main__ | INFO | ==================================================
+2026-07-16 23:30:47,142 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-07-16 23:30:57,673 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-07-16 23:31:00,029 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-10-31 14:27:52,870 | utils.db | INFO | ✅ Database initialized successfully.
+2026-10-31 14:27:52,886 | __main__ | INFO | ==================================================
+2026-10-31 14:27:52,886 | __main__ | INFO | 🤖 بدء تشغيل بوت التحميل...
+2026-10-31 14:27:52,906 | __main__ | INFO | ==================================================
+2026-10-31 14:27:53,548 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
+2026-10-31 14:28:07,705 | handlers.admin | INFO | 🔄 Running scheduled auto-update for yt-dlp...
+2026-10-31 14:28:21,815 | handlers.admin | INFO | ✅ yt-dlp auto-updated successfully. Version: 2026.07.04
+2026-10-31 14:28:45,476 | handlers.start | INFO | User 1680454327 (『ديטּجر🇮🇶⃤』) started the bot
+2026-10-31 14:29:34,247 | downloader | INFO | Deleted: downloads\aedf6106-18df-4d86-819b-22d87e97b35a\Video by loqmapetfood.iq.mp4
+2026-10-31 21:34:37,250 | utils.db | INFO | ✅ Database initialized successfully.
+2026-10-31 21:34:37,258 | keep_alive | INFO | 🌐 خادم Keep-Alive يعمل الآن على المنفذ: 8000 (متوافق مع Render Web Service)
+2026-10-31 21:34:37,259 | keep_alive | INFO | ℹ️ لم يتم العثور على رابط Render الخارجي بعد. بمجرد توفر RENDER_EXTERNAL_URL أو KEEP_ALIVE_URL سيعمل التنشيط الذاتي تلقائياً.
+2026-10-31 21:34:37,259 | __main__ | INFO | ==================================================
+2026-10-31 21:34:37,259 | __main__ | INFO | 🤖 جاري تشغيل 1 بوت/بوتات في نفس الوقت...
+2026-10-31 21:34:37,259 | __main__ | INFO | ==================================================
+2026-10-31 21:34:37,793 | __main__ | INFO | ✅ البوت يعمل الآن! اضغط Ctrl+C لإيقافه
