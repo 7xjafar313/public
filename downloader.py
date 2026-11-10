@@ -36,13 +36,55 @@ def get_ffmpeg_location() -> Optional[str]:
     return None
 
 
+def get_cookie_file() -> Optional[str]:
+    """العثور على ملف الكوكيز أو استخراجه من متغيرات البيئة"""
+    # 1. إذا تم توفير محتوى الكوكيز عبر متغير بيئة COOKIES_CONTENT في Render
+    env_cookies = os.getenv("COOKIES_CONTENT", "").strip()
+    if env_cookies:
+        cookie_path = os.path.join(DOWNLOAD_DIR, "env_cookies.txt")
+        try:
+            with open(cookie_path, "w", encoding="utf-8") as f:
+                f.write(env_cookies)
+            return cookie_path
+        except Exception:
+            pass
+
+    # 2. فحص وجود cookies.txt في مجلد المشروع
+    root_dir = os.path.dirname(os.path.abspath(__file__))
+    candidates = [
+        os.path.join(root_dir, "cookies.txt"),
+        "cookies.txt",
+    ]
+    for c in candidates:
+        if os.path.exists(c) and os.path.getsize(c) > 10:
+            return c
+    return None
+
+
+def clean_url(url: str) -> str:
+    """تنظيف الرابط من معاملات التتبع مثل ?igsh= أو ?mdxt= التي تسبب مشاكل مع بعض المنصات"""
+    if "instagram.com" in url or "tiktok.com" in url:
+        return url.split("?")[0]
+    return url
+
+
 def get_ydl_opts(extra_opts: Optional[dict] = None) -> dict:
-    """تجهيز إعدادات yt-dlp الأساسية"""
+    """تجهيز إعدادات yt-dlp الأساسية مع دعم الكوكيز والهيدرز المحدثة"""
     opts = {
         "quiet": True,
         "no_warnings": True,
         "ffmpeg_location": get_ffmpeg_location(),
+        "http_headers": {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+            "Accept-Language": "en-US,en;q=0.9,ar;q=0.8",
+        },
     }
+
+    # إضافة ملف الكوكيز إن وُجد (مهم جداً لإنستغرام ويوتيوب)
+    cookie_file = get_cookie_file()
+    if cookie_file:
+        opts["cookiefile"] = cookie_file
+
     if extra_opts:
         opts.update(extra_opts)
     return opts
@@ -51,11 +93,12 @@ def get_ydl_opts(extra_opts: Optional[dict] = None) -> dict:
 # ==================== جلب معلومات الميديا ====================
 def _extract_info(url: str, download: bool = False) -> dict:
     """استخراج معلومات الميديا (متزامن - يُستدعى في thread)"""
+    target_url = clean_url(url)
     ydl_opts = get_ydl_opts({
-        "extract_flat": not download,
+        "extract_flat": "in_playlist" if not download else False,
     })
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-        return ydl.extract_info(url, download=download)
+        return ydl.extract_info(target_url, download=download)
 
 
 async def get_media_info(url: str) -> Optional[dict]:
@@ -102,9 +145,10 @@ def _download_video(url: str, quality: str, output_dir: str,
     if progress_hook:
         ydl_opts["progress_hooks"] = [progress_hook]
 
+    target_url = clean_url(url)
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=True)
+            info = ydl.extract_info(target_url, download=True)
             filename = ydl.prepare_filename(info)
             # تأكد من الامتداد الصحيح بعد الدمج
             if not os.path.exists(filename):
@@ -150,9 +194,10 @@ def _download_audio(url: str, quality: str, output_dir: str,
     if progress_hook:
         ydl_opts["progress_hooks"] = [progress_hook]
 
+    target_url = clean_url(url)
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=True)
+            info = ydl.extract_info(target_url, download=True)
             filename = ydl.prepare_filename(info)
             base = os.path.splitext(filename)[0]
             mp3_path = f"{base}.mp3"
@@ -189,9 +234,10 @@ def _download_images(url: str, output_dir: str) -> list[str]:
     })
 
     downloaded = []
+    target_url = clean_url(url)
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=True)
+            info = ydl.extract_info(target_url, download=True)
             # ابحث عن الصور المحملة
             for file in Path(output_dir).glob("*"):
                 if file.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp", ".gif"]:
@@ -236,9 +282,10 @@ def _download_playlist(url: str, as_audio: bool, output_dir: str,
         ydl_opts["progress_hooks"] = [progress_hook]
 
     downloaded_files = []
+    target_url = clean_url(url)
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            info = ydl.extract_info(url, download=True)
+            info = ydl.extract_info(target_url, download=True)
             entries = info.get("entries", [])
             for entry in entries:
                 if entry:
